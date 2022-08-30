@@ -1,10 +1,15 @@
-﻿int numberA = 5;
-int numberB =7; 
-if(numberA > numberB)
+﻿Console.WriteLine("Введите первое число: ");
+string numberA = Console.ReadLine();
+int numberAint = Convert.ToInt32(numberA);
+Console.WriteLine("Введите второе число: ");
+string numberB = Console.ReadLine();
+int numberBint = Convert.ToInt32(numberB);
+
+if(numberAint > numberBint)
 {
-    Console.WriteLine(numberA);
+    Console.WriteLine(numberAint);
 }
 else
 {
-    Console.WriteLine(numberB);
+    Console.WriteLine(numberBint);
 }
