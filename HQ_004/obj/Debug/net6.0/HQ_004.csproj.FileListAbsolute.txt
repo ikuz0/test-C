@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\C#\HQ_004\bin\Debug\net6.0\HQ_004.exe
+C:\Users\User\Desktop\C#\HQ_004\bin\Debug\net6.0\HQ_004.deps.json
+C:\Users\User\Desktop\C#\HQ_004\bin\Debug\net6.0\HQ_004.runtimeconfig.json
+C:\Users\User\Desktop\C#\HQ_004\bin\Debug\net6.0\HQ_004.dll
+C:\Users\User\Desktop\C#\HQ_004\bin\Debug\net6.0\HQ_004.pdb
+C:\Users\User\Desktop\C#\HQ_004\obj\Debug\net6.0\HQ_004.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\C#\HQ_004\obj\Debug\net6.0\HQ_004.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\C#\HQ_004\obj\Debug\net6.0\HQ_004.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\C#\HQ_004\obj\Debug\net6.0\HQ_004.AssemblyInfo.cs
+C:\Users\User\Desktop\C#\HQ_004\obj\Debug\net6.0\HQ_004.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\C#\HQ_004\obj\Debug\net6.0\HQ_004.dll
+C:\Users\User\Desktop\C#\HQ_004\obj\Debug\net6.0\refint\HQ_004.dll
+C:\Users\User\Desktop\C#\HQ_004\obj\Debug\net6.0\HQ_004.pdb
+C:\Users\User\Desktop\C#\HQ_004\obj\Debug\net6.0\HQ_004.genruntimeconfig.cache
+C:\Users\User\Desktop\C#\HQ_004\obj\Debug\net6.0\ref\HQ_004.dll
