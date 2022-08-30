@@ -1,6 +1,5 @@
-﻿Console.WriteLine("Введите первое число: ");
-string numberA = Console.ReadLine();
-int numberAint = Convert.ToInt32(numberA);
+﻿Console.WriteLine("Введите число: ");
+int numberAint = int.Parse(Console.ReadLine()!);
 int i=1;
 while(i<(numberAint+1))
 {

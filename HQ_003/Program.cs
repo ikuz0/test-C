@@ -1,6 +1,5 @@
 ﻿Console.WriteLine("Введите число: ");
-string numberA = Console.ReadLine();
-int numberAint = Convert.ToInt32(numberA);
+int numberAint = int.Parse(Console.ReadLine()!);
 
 if(numberAint%2 == 0)
 {

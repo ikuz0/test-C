@@ -1,9 +1,7 @@
 ﻿Console.WriteLine("Введите первое число: ");
-string numberA = Console.ReadLine();
-int numberAint = Convert.ToInt32(numberA);
+int numberAint = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите второе число: ");
-string numberB = Console.ReadLine();
-int numberBint = Convert.ToInt32(numberB);
+int numberBint = int.Parse(Console.ReadLine()!);
 
 if(numberAint > numberBint)
 {
