@@ -1,4 +1,4 @@
-﻿int number = new Random().Next(10, 1000);
+﻿int number = new Random().Next(100, 1000);
 Console.WriteLine("Введите трехзначное число: ");
 
 
