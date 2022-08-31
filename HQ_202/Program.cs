@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Введите трехзначное число: ");
+﻿Console.WriteLine("Введите число: ");
 int number = int.Parse(Console.ReadLine()!);
 //определение колличества цифр в числе
 int len = number.ToString().Length;
