@@ -7,9 +7,9 @@ m = 3, n = 4.
 */
 int m, n;
 Console.WriteLine($"Введите колличество строк: ");
-int.TryParse(Console.ReadLine(), out m);
+int.TryParse(Console.ReadLine()!, out m);
 Console.WriteLine($"Введите колличество столбцов: ");
-int.TryParse(Console.ReadLine(), out n);
+int.TryParse(Console.ReadLine()!, out n);
 
 double[,] array = new double[m, n];
 
