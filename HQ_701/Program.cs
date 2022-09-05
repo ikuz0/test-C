@@ -11,13 +11,14 @@ int.TryParse(Console.ReadLine()!, out m);
 Console.WriteLine($"Введите колличество столбцов: ");
 int.TryParse(Console.ReadLine()!, out n);
 
+Random x = new Random();
 double[,] array = new double[m, n];
 
 for (int i = 0; i < m; i++)
 {
     for (int j = 0; j < n; j++)
     {
-        array[i, j] = new Random().NextDouble() * new Random().Next(-10, 10);
+        array[i, j] = Convert.ToDouble(x.Next(-100, 100) / 10.0);
         Console.Write($"{array[i, j]:F1} ");
     }
     Console.WriteLine();
