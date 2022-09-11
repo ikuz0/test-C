@@ -8,7 +8,7 @@ N = 5 -> "1,2,3,4,5"
 N = 6-> "1,2,3,4,5,6"
 */
 
-int N;
+/*int N;
 Console.Write($" Введите N:  ");
 int.TryParse(Console.ReadLine(), out N);
 
@@ -19,4 +19,18 @@ void PrintNUmbers(int start, int end)
     Console.Write($"{start} ");
     if (start < end)
         PrintNUmbers(start + 1, end);
+}
+*/
+int N;
+Console.Write($" Введите N:  ");
+int.TryParse(Console.ReadLine(), out N);
+
+Console.Write($"{PrintNUmbers(1, N)}");
+
+string PrintNUmbers(int start, int end)
+{
+    if (start >= end)
+
+        return start.ToString();
+    return $"{start}  {PrintNUmbers(start + 1, end)}";
 }
