@@ -21,7 +21,7 @@ void PrintNUmbers(int start, int end)
         PrintNUmbers(start + 1, end);
 }
 */
-int N;
+/*int N;
 Console.Write($" Введите N:  ");
 int.TryParse(Console.ReadLine(), out N);
 
@@ -32,5 +32,35 @@ string PrintNUmbers(int start, int end)
     if (start >= end)
 
         return start.ToString();
-    return $"{start}  {PrintNUmbers(start + 1, end)}";
+    return $"{start} {PrintNUmbers(start + 1, end)}";
 }
+*/
+/*
+int N, M;
+Console.Write($" Введите N:  ");
+int.TryParse(Console.ReadLine(), out N);
+Console.Write($" Введите M:  ");
+int.TryParse(Console.ReadLine(), out M);
+
+//PrintNUmbers(N, M);
+
+string PrintNUmbers(int start, int end)
+{
+    if (start >= end)
+    {
+        return start.ToString();
+    }
+
+    if (start > 0)
+    {
+        return $"{start} {PrintNUmbers(start + 1, end)}";
+    }
+    else
+    {
+        start = 0;
+        return PrintNUmbers(start + 1, end);
+    }
+}
+
+Console.WriteLine(PrintNUmbers(N, M));
+*/
